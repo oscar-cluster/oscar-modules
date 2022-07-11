@@ -52,8 +52,8 @@ BuildRequires: ed
 Requires: tcl
 Requires: coreutils grep make
 #Requires: %__mv %__rm %__cp %__cat %__mkdir %__chmod %__grep %__make
-Requires: /bin/ed
-Requires: /usr/bin/test
+Requires: ed
+Requires: coreutils
 
 %description 
 The Modules package provides for the dynamic modification of the
