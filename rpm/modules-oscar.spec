@@ -48,6 +48,7 @@ Patch3: modules_3.3.a_ModulePath.patch
 URL: http://modules.sourceforge.net/
 Packager: Open Cluster Group / OSCAR working group
 BuildRequires: tcl-devel
+BuildRequires: ed
 Requires: tcl
 Requires: coreutils grep make
 #Requires: %__mv %__rm %__cp %__cat %__mkdir %__chmod %__grep %__make
